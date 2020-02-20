@@ -7,8 +7,6 @@
  */
 
 import React from 'react';
-import codePush from 'react-native-code-push';
-
 import {
   SafeAreaView,
   StyleSheet,
@@ -113,5 +111,4 @@ const styles = StyleSheet.create({
   },
 });
 
-let codePushOptions = {checkFrequency: codePush.CheckFrequency.ON_APP_RESUME};
-codePush(codePushOptions)(App);
+export default App;
