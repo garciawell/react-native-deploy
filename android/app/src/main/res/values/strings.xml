@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">githuberApp</string>
+     <string moduleConfig="true" name="CodePushDeploymentKey">CrirDAs6RNfLlzKS8pSOmX1RzdqOgJtJLVUxo</string>
 </resources>
