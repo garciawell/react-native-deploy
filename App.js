@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import codePush from 'react-native-code-push';
 import {
   SafeAreaView,
   StyleSheet,
@@ -111,4 +112,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+// eslint-disable-next-line prettier/prettier
+let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
+
+export default codePush(codePushOptions)(App);
