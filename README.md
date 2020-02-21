@@ -2,4 +2,8 @@
 
 CODEPUSH COMANDOS
 
+Listar Variáveis:
+appcenter codepush deployment list -a GarciaWg/Wg-Android -k
+
+Enviar Codepush
 appcenter codepush release-react -a GarciaWg/Wg-Android -d Production -t 1.1
