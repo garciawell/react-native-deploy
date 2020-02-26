@@ -8,7 +8,7 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <Container>
-        <Title>Spoti Light (WG)</Title>
+        <Title>Spoti Light</Title>
       </Container>
     </>
   );
