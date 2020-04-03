@@ -8,8 +8,10 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <Container>
-        <Title>Spoti Light V3</Title>
-        <TextInput />
+        <Title>Spoti Light v1.2</Title>
+        <TextInput
+          style={{color: '#fff', border: '1px solid #fff', padding: '10px'}}
+        />
       </Container>
     </>
   );
